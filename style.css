@@ -1,0 +1,108 @@
+body{
+    font-family: sans-serif;
+}
+#platina{
+    letter-spacing: 5px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.right{
+    /* justify-content: flex-end; */
+    float: right;
+    margin: 10px;
+    margin-right: 22px;
+    font-size: 18px;
+}
+.container2{
+    margin-top: 30px;
+
+}
+.grid-container{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 2fr;
+    
+}
+#fname{
+    grid-column: 1/2;
+    margin-left: 20px;
+    height: 20px;
+}
+#lname{
+    grid-column: 2/3;
+    position: sticky;
+    resize: none;
+}
+#area{
+    grid-column: 3/5;
+    grid-row: row 4;
+    overflow: auto;
+}
+#arrival{
+    grid-column: 1/2;
+    margin-left: 20px;
+    height: 20px;
+    height: 20px; 
+}
+#date{
+    grid-column: 2/3;
+    height: 20px;  
+}
+#room-t{
+    grid-column: 1/2;
+    margin-left: 20px;
+    height: 20px; 
+}
+#room-n{
+    grid-column: 2/3;
+    height: 20px; 
+}
+#adult{
+    grid-column: 1/2;
+    margin-left: 20px;
+    height: 20px; 
+}
+#btn{
+    background: linear-gradient(to bottom, orange,red);
+    color: white;
+    height: 47px;
+    width: 143px;
+    padding: 0px 5px;
+    border-radius: 30px;
+    font-size: 17px;
+   
+}
+@media only screen and (max-width:572px) and (min-width:300px){
+    #home{
+         position: absolute;
+         top: 0px;
+         right: 20px;
+
+    }
+    #facilities{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    #service{
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+    #book{
+        position: absolute;
+        top: 60px;
+        right: 20px;
+    }
+    .container2{
+        margin-top: 72px;
+    }
+}
+/* #area{
+    height: 100px;
+} */
